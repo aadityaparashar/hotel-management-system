@@ -40,7 +40,7 @@ Java
 
 ## Running
 
-Import the project folder in your IDE or run the '.jar' from the 'build' folder <br>
+Import the project folder in your IDE or run the '.jar' from the 'dist' folder <br>
 [Use the '.jar', It seems more legit thanks to the splash screen]
 
 <hr>
