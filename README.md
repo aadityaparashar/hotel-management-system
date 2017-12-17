@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aadityaparashar/hotel-management-system.svg?branch=master)](https://travis-ci.org/aadityaparashar/hotel-management-system)
+
 # Hotel Management System
 
 This is a VERY simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. <br>
