@@ -1,6 +1,6 @@
 # Hotel Management System
 
-This is a VERY simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. 
+This is a VERY simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. <br>
 I'll explain each briefly below, but a better expanation would be talking to me in person ;D 
 <hr>
 
@@ -18,7 +18,7 @@ This is to mentain which rooms are cleaned - this version is for a "cheap" hotel
 The 'Refresh' button filters the database and then marks the room 'not clean' (cleaned = no) in the database.
 
 ### Customer Registeration
-This is to add new customer registrations in the databse, you can also search before you add - to avoid redundancy. 
+This is to add new customer registrations in the databse, you can also search before you add - to avoid redundancy.
 In future this might be fully incorporated in the Visitor management form.
 
 ### Home
@@ -31,7 +31,7 @@ This example was created by me in 2015 as a high school project and has been sli
 For the demo a localhost database is being used, but the commands to create your own database are provided in the 'data.sql' file.
 I have uploaded a screenshot of one of the files to proove that this is my work, as I did a bulk upload of the project, screenshot in '2015' folder.
 
-NB! If you find bugs (which you will) - let me know, I'll tell you they are features (and then fix them :P)
+NB! If you find bugs (which you will) - let me know, I'll tell you they are features (and then fix them :P) <br>
 NB! The code is mostly not commented, I'll be commenting some of it and pushing it in the next couple of days.. 
 <hr>
 
@@ -40,8 +40,9 @@ Java
 
 ## Running
 
-Import the project folder in your IDE or run the '.jar' from the 'build' folder
+Import the project folder in your IDE or run the '.jar' from the 'build' folder <br>
 [Use the '.jar', It seems more legit thanks to the splash screen]
 
 <hr>
+END OF README, THIS IS
 <hr>
