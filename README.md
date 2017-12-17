@@ -1,6 +1,7 @@
 # Hotel Management System
 
-This is a very simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. 
+This is a VERY simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. 
+I'll explain each briefly below, but a better expanation would be talking to me in person ;D 
 <hr>
 
 ### Visitor Management 
@@ -24,9 +25,14 @@ In future this might be fully incorporated in the Visitor management form.
 Does nothing great in itself, just provides links to forms which matter - and it looks cool. 
 
 <hr>
-This example was created by me in 2015 as a high school project and has been slightly modified in 2017 for this project..
-For the demo a localhost database is being used, but the commands to create your own database are provided in the 'data.sql' file. 
 
+### History
+This example was created by me in 2015 as a high school project and has been slightly modified in 2017 for this project..
+For the demo a localhost database is being used, but the commands to create your own database are provided in the 'data.sql' file.
+I have uploaded a screenshot of one of the files to proove that this is my work, as I did a bulk upload of the project, screenshot in '2015' folder.
+
+NB! If you find bugs (which you will) - let me know, I'll tell you they are features (and then fix them :P)
+NB! The code is mostly not commented, I'll be commenting some of it and pushing it in the next couple of days.. 
 <hr>
 
 ## Language
@@ -34,4 +40,8 @@ Java
 
 ## Running
 
-Import the project file in your IDE or run the '.jar' from the 'build' folder
+Import the project folder in your IDE or run the '.jar' from the 'build' folder
+[Use the '.jar', It seems more legit thanks to the splash screen]
+
+<hr>
+<hr>
