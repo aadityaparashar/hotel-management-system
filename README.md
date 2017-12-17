@@ -2,6 +2,7 @@
 
 This is a very simple Hotel Management System. There are five forms, home plus four more including Visitor Management, Room Availibility, House Keeping and Customer Registration. 
 <hr>
+
 ### Visitor Management 
 This is used to see the entire list of registered guests, and delete them if needed. 
 In the next version of the app, they will be linked in the database to the room reservation table so that we can get more funcionality in this form.
@@ -27,8 +28,9 @@ This example was created by me in 2015 as a high school project and has been sli
 For the demo a localhost database is being used, but the commands to create your own database are provided in the 'data.sql' file. 
 
 <hr>
+
 ## Language
-* Java
+Java
 
 ## Running
 
