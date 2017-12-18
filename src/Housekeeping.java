@@ -155,7 +155,7 @@ public static Connection getConnection() throws ClassNotFoundException {
         try{
             Connection con= getConnection();
             Statement stmt=(Statement) con.createStatement();
-            String query="Select RoomNo, Roomtype, ArrivalDate, DepartureDate From roombooking where booked='yes' and cleaned = 'no';";
+            String query="Select RoomNo, Roomtype, ArrivalDate, DepartureDate From roombooking where cleaned = 'no';";
      
             ResultSet rs=stmt.executeQuery(query);
             int i=0;

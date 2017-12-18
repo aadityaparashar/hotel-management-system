@@ -160,13 +160,11 @@ public static Connection getConnection() throws ClassNotFoundException {
         jLabel7.setBounds(90, 310, 95, 16);
 
         jLabel2.setFont(new java.awt.Font("Papyrus", 0, 48)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("The Tropical");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(70, 10, 320, 60);
 
         jLabel8.setFont(new java.awt.Font("Segoe Script", 0, 12)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("AP Group of Hotels");
         getContentPane().add(jLabel8);
         jLabel8.setBounds(210, 70, 140, 15);
