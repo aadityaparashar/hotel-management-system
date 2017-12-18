@@ -73,20 +73,19 @@ public static Connection getConnection() throws ClassNotFoundException {
         jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1500, 898));
+        setMinimumSize(new java.awt.Dimension(800, 400));
+        setPreferredSize(new java.awt.Dimension(1080, 900));
         getContentPane().setLayout(null);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Customer Id");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(780, 410, 130, 30);
+        jLabel3.setBounds(70, 440, 130, 30);
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Check In Date");
+        jLabel4.setText("Details:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(180, 180, 130, 30);
+        jLabel4.setBounds(90, 210, 130, 30);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Any", "Delux", "Suite", "Cottage", " " }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -95,7 +94,7 @@ public static Connection getConnection() throws ClassNotFoundException {
             }
         });
         getContentPane().add(jComboBox1);
-        jComboBox1.setBounds(170, 430, 105, 27);
+        jComboBox1.setBounds(260, 350, 105, 27);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -123,7 +122,7 @@ public static Connection getConnection() throws ClassNotFoundException {
         jScrollPane1.setViewportView(jTable1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(670, 200, 490, 210);
+        jScrollPane1.setBounds(540, 230, 530, 210);
 
         jButton1.setText("Check Avaibility");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +131,7 @@ public static Connection getConnection() throws ClassNotFoundException {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(80, 470, 330, 29);
+        jButton1.setBounds(60, 390, 330, 29);
 
         jButton2.setText("Book Room");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -141,23 +140,22 @@ public static Connection getConnection() throws ClassNotFoundException {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(1040, 410, 120, 29);
+        jButton2.setBounds(270, 440, 120, 29);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Room Type");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(80, 420, 130, 40);
+        jLabel5.setBounds(170, 340, 130, 40);
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(910, 410, 80, 26);
+        jTextField1.setBounds(180, 440, 80, 26);
 
         jLabel6.setText("Arrival Date");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(100, 230, 74, 16);
+        jLabel6.setBounds(80, 260, 74, 16);
 
         jLabel7.setText("Departure Date");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(90, 310, 95, 16);
+        jLabel7.setBounds(70, 300, 95, 16);
 
         jLabel2.setFont(new java.awt.Font("Papyrus", 0, 48)); // NOI18N
         jLabel2.setText("The Tropical");
@@ -169,18 +167,18 @@ public static Connection getConnection() throws ClassNotFoundException {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(210, 70, 140, 15);
 
-        jButton3.setText("Go Home");
+        jButton3.setText("Back to Home");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(1050, 550, 90, 29);
+        jButton3.setBounds(150, 530, 130, 29);
         getContentPane().add(jDateChooser1);
-        jDateChooser1.setBounds(190, 230, 230, 26);
+        jDateChooser1.setBounds(170, 250, 230, 26);
         getContentPane().add(jDateChooser2);
-        jDateChooser2.setBounds(190, 300, 230, 26);
+        jDateChooser2.setBounds(170, 290, 230, 26);
 
         jButton4.setText("Check Out");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -189,15 +187,14 @@ public static Connection getConnection() throws ClassNotFoundException {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(1040, 450, 110, 29);
+        jButton4.setBounds(270, 480, 110, 29);
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(910, 450, 80, 26);
+        jTextField2.setBounds(180, 480, 80, 26);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Room No.");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(780, 450, 130, 30);
+        jLabel9.setBounds(70, 480, 130, 30);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

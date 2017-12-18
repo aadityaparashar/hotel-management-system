@@ -60,7 +60,8 @@ public static Connection getConnection() throws ClassNotFoundException {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1500, 898));
+        setMinimumSize(new java.awt.Dimension(800, 400));
+        setPreferredSize(new java.awt.Dimension(900, 720));
         getContentPane().setLayout(null);
 
         jButton1.setText("Show");
@@ -113,17 +114,16 @@ public static Connection getConnection() throws ClassNotFoundException {
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Housekeeping");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(310, 90, 290, 70);
+        jLabel1.setBounds(270, 110, 290, 70);
 
         jLabel3.setFont(new java.awt.Font("Papyrus", 0, 36)); // NOI18N
         jLabel3.setText("The Tropical ");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(1060, 30, 230, 70);
+        jLabel3.setBounds(20, 10, 230, 70);
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("An AP Group Hotel");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(1160, 100, 130, 16);
+        jLabel4.setBounds(170, 60, 130, 16);
 
         jButton3.setText("Go Home");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +132,7 @@ public static Connection getConnection() throws ClassNotFoundException {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(1180, 580, 120, 29);
+        jButton3.setBounds(510, 460, 120, 29);
 
         jButton4.setText("Refresh");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -143,7 +143,7 @@ public static Connection getConnection() throws ClassNotFoundException {
         getContentPane().add(jButton4);
         jButton4.setBounds(170, 200, 97, 29);
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 1450, 770);
+        jLabel2.setBounds(10, 10, 1450, 770);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
