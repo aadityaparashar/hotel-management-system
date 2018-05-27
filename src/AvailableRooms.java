@@ -33,7 +33,7 @@ public static Connection getConnection() throws ClassNotFoundException {
 
     try{
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel","root","demo");
+        Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7240131","sql7240131","AP6aPLz3tL");
         return con;
     }
 

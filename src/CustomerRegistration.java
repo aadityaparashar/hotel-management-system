@@ -29,7 +29,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
 
     try{
         Class.forName("com.mysql.jdbc.Driver");
-        com.mysql.jdbc.Connection con = (com.mysql.jdbc.Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel","root","demo");
+        com.mysql.jdbc.Connection con = (com.mysql.jdbc.Connection) DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7240131","sql7240131","AP6aPLz3tL");
         return con;
     }
 

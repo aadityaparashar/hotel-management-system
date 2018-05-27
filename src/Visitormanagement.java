@@ -89,11 +89,11 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             }
         });
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(120, 250, 132, 26);
+        jTextField2.setBounds(120, 240, 132, 26);
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(120, 290, 132, 26);
+        jTextField3.setBounds(120, 270, 132, 26);
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(120, 330, 132, 26);
+        jTextField4.setBounds(120, 300, 132, 26);
 
         jButton1.setText("Submit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -102,7 +102,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(110, 360, 137, 29);
+        jButton1.setBounds(110, 350, 137, 29);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -139,7 +139,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(250, 500, 200, 29);
+        jButton2.setBounds(340, 500, 110, 29);
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setText("by Name");
@@ -167,15 +167,15 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
 
         jLabel2.setText("Number");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(50, 250, 50, 16);
+        jLabel2.setBounds(50, 240, 50, 16);
 
         jLabel3.setText("E-mail");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(50, 290, 42, 16);
+        jLabel3.setBounds(50, 280, 42, 16);
 
         jLabel4.setText("Country");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(40, 330, 50, 16);
+        jLabel4.setBounds(50, 310, 50, 16);
 
         jLabel5.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 36)); // NOI18N
         jLabel5.setText("Visitor Management cPanel");
@@ -202,9 +202,9 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         getContentPane().add(jRadioButton4);
         jRadioButton4.setBounds(350, 460, 101, 23);
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(60, 550, 100, 20);
+        jLabel6.setBounds(20, 500, 100, 20);
         getContentPane().add(jTextField5);
-        jTextField5.setBounds(40, 500, 206, 26);
+        jTextField5.setBounds(130, 500, 206, 26);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel7.setText("Search Visitors");
@@ -236,7 +236,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
 
         jLabel10.setText("jLabel10");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(-310, -20, 1710, 810);
+        jLabel10.setBounds(-320, -10, 1710, 810);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
