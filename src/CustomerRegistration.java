@@ -280,6 +280,8 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             Statement stmt = (Statement) con.createStatement();
             String query = "INSERT INTO CustomerRegistration values ('"+CustomerId+"', '"+name+"','"+number+"','"+email+"','"+country+"');";
             stmt.executeUpdate(query);
+            JOptionPane.showMessageDialog(this, "Customer added to database..");
+            jTextField1.setText("");jTextField2.setText("");jTextField3.setText("");jTextField4.setText("");jTextField5.setText("");
         }
 
         catch (Exception e){
