@@ -214,13 +214,10 @@ public static Connection getConnection() throws ClassNotFoundException {
             
             while(rs.next()){
                 String RoomNo=rs.getString("RoomNo");    
-                i=i+1;
+                i++;
                 Statement stmt1 =(Statement) con.createStatement();
                 String query1= "Update roombooking set cleaned='no' where roomno='"+RoomNo+"';";
                 stmt1.executeUpdate(query1);
-            }
-            if (i == 0){
-                JOptionPane.showMessageDialog(this,"No new rooms to clean");
             }
         }
         
