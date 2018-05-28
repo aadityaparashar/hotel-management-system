@@ -218,7 +218,9 @@ public static Connection getConnection() throws ClassNotFoundException {
                 String query1= "Update roombooking set cleaned='no' where roomno='"+RoomNo+"';";
                 stmt1.executeUpdate(query1);
             }
-            
+            if (i == 0){
+                JOptionPane.showMessageDialog(this,"No new rooms to clean");
+            }
         }
         
         catch (Exception e){
