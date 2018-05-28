@@ -267,7 +267,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
      
         DefaultTableModel model=(DefaultTableModel)
         jTable1.getModel();
-        model.getDataVector().removeAllElements();
+        model.setRowCount(0);
         try {
             Connection con = getConnection();
             Statement stmt = (Statement) con.createStatement();

@@ -73,7 +73,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         jLabel7 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(800, 400));
@@ -258,9 +258,9 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         getContentPane().add(jLabel8);
         jLabel8.setBounds(60, 90, 215, 52);
 
-        jLabel9.setText("jLabel9");
-        getContentPane().add(jLabel9);
-        jLabel9.setBounds(-480, -40, 1820, 860);
+        jButton4.setText("jButton4");
+        getContentPane().add(jButton4);
+        jButton4.setBounds(890, 480, 97, 29);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -286,7 +286,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         DefaultTableModel model=(DefaultTableModel)
         jTable1.getModel();
-
+        model.setRowCount(0);
 
         try {
             Connection con = getConnection();
@@ -414,6 +414,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -422,7 +423,6 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
