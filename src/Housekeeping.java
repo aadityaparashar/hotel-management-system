@@ -152,6 +152,7 @@ public static Connection getConnection() throws ClassNotFoundException {
         
         DefaultTableModel model=(DefaultTableModel)
         jTable1.getModel();
+        model.setRowCount(0);
         try{
             Connection con= getConnection();
             Statement stmt=(Statement) con.createStatement();
