@@ -285,8 +285,12 @@ public static Connection getConnection() throws ClassNotFoundException {
 
         catch (Exception e){
             JOptionPane.showMessageDialog(this, e.getMessage());
-        }    
-         
+        }
+        DefaultTableModel model=(DefaultTableModel)
+        jTable1.getModel();
+        model.setRowCount(0);
+        jTextField1.setText("");
+        jTextField2.setText("");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -313,6 +317,11 @@ public static Connection getConnection() throws ClassNotFoundException {
         catch (Exception e){
             JOptionPane.showMessageDialog(this, e.getMessage());
         } 
+    DefaultTableModel model=(DefaultTableModel)
+    jTable1.getModel();
+    model.setRowCount(0);
+    jTextField1.setText("");
+    jTextField2.setText("");
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
 
