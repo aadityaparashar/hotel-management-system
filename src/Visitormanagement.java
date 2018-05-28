@@ -351,6 +351,9 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         } 
         
         JOptionPane.showMessageDialog(this, "the selected entry has been deleted");
+        DefaultTableModel model=(DefaultTableModel)
+        jTable1.getModel();
+        model.setRowCount(0);
     // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
