@@ -288,14 +288,18 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
                  query = "Select * from visitormanagement where country like '%"+par+"%'order by country;";
             }
             ResultSet rs=stmt.executeQuery(query);
-     
+            int i = 0;
             while(rs.next()){
                 String name=rs.getString("name");    
                 String number=rs.getString("number");
                 String email=rs.getString("email");
                 String country=rs.getString("country");
                 model.addRow(new Object[] {name,number,email,country});
-    
+                i++;
+            }
+            
+            if (i==0){
+                JOptionPane.showMessageDialog(this, "No visitors exists");
             }
         }
 
