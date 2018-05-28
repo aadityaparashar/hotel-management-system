@@ -232,7 +232,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(850, 410, 102, 29);
+        jButton4.setBounds(850, 400, 102, 29);
 
         jLabel10.setText("jLabel10");
         getContentPane().add(jLabel10);
