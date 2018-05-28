@@ -258,9 +258,14 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         getContentPane().add(jLabel8);
         jLabel8.setBounds(60, 90, 215, 52);
 
-        jButton4.setText("jButton4");
+        jButton4.setText("Delete");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton4);
-        jButton4.setBounds(890, 480, 97, 29);
+        jButton4.setBounds(890, 470, 84, 29);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -374,6 +379,32 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         this.setVisible(false);  
     // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+
+        int i = jTable1.getSelectedRow();
+        System.out.println(i);
+        Object a = jTable1.getValueAt(i,0);
+        String b= a.toString();
+        System.out.println(b);
+          
+        try{
+            Connection con = getConnection();
+            Statement stmt = (Statement) con.createStatement();
+            String query="Delete from CustomerRegistration where CustomerId='"+b+"';";
+            stmt.executeUpdate(query);
+    
+        }
+
+        catch (Exception e){
+            System.out.println(e.getMessage());
+    
+        } 
+        
+        JOptionPane.showMessageDialog(this, "the selected entry has been deleted");
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
