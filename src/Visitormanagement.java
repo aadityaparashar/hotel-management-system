@@ -251,6 +251,8 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
             Statement stmt = (Statement) con.createStatement();
             String query = "INSERT INTO visitormanagement values ('"+name+"','"+number+"','"+email+"','"+country+"');";
             stmt.executeUpdate(query);
+            jTextField1.setText("");jTextField2.setText("");jTextField3.setText("");jTextField4.setText("");
+            JOptionPane.showMessageDialog(this, "Visitor Added");
         }
 
         catch (Exception e){
