@@ -300,16 +300,15 @@ public static Connection getConnection() throws ClassNotFoundException {
         try{
                 Connection con = getConnection();
                 Statement stmt =(Statement) con.createStatement();
-                Statement stmt1=(Statement) con.createStatement();
-                Statement stmt2=(Statement) con.createStatement();
-                Statement stmt3=(Statement) con.createStatement();
                 String query1="Update roombooking set arrivaldate= NULL where roomno='"+r+"';";
                 String query2= "Update roombooking set departuredate=NULL where roomno='"+r+"';";
                 String query3= "Update roombooking set booked='no' where roomno='"+r+"';";
-                stmt1.executeUpdate(query1);
-                stmt2.executeUpdate(query2);
-                stmt3.executeUpdate(query3);
-                JOptionPane.showMessageDialog(this, "room has been cleared");
+                String query4= "Update roombooking set cleaned='no' where roomno='"+r+"';";
+                stmt.executeUpdate(query1);
+                stmt.executeUpdate(query2);
+                stmt.executeUpdate(query3);
+                stmt.executeUpdate(query4);
+                JOptionPane.showMessageDialog(this, "The room has been checked out");
         }
         catch (Exception e){
             JOptionPane.showMessageDialog(this, e.getMessage());
