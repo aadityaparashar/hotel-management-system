@@ -193,6 +193,9 @@ public static Connection getConnection() throws ClassNotFoundException {
          catch (Exception e){
             JOptionPane.showMessageDialog(this, e.getMessage());
         }
+        DefaultTableModel model=(DefaultTableModel)
+        jTable1.getModel();
+        model.setRowCount(0);
     // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
