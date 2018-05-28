@@ -51,7 +51,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(200, 230, 150, 40);
+        jButton1.setBounds(180, 230, 170, 40);
 
         jLabel3.setFont(new java.awt.Font("Lucida Sans", 0, 11)); // NOI18N
         jLabel3.setText("An AP Group Hotel");
@@ -63,14 +63,14 @@ public class Home extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(170, 40, 90, 14);
 
-        jButton2.setText("Sign Up");
+        jButton2.setText("Customer Registration");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(200, 180, 150, 40);
+        jButton2.setBounds(180, 180, 170, 40);
 
         jButton3.setText("Housekeeping");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

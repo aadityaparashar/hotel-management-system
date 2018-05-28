@@ -242,7 +242,7 @@ public static com.mysql.jdbc.Connection getConnection() throws ClassNotFoundExce
         getContentPane().add(jLabel6);
         jLabel6.setBounds(70, 370, 76, 17);
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(743, 196, 85, 20);
+        jLabel7.setBounds(570, 190, 120, 20);
 
         jButton3.setText("Go Home");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
